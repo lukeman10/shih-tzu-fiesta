@@ -22,6 +22,7 @@ img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
+    flex-grow: 1;
 }
 
 img:hover {
@@ -30,4 +31,52 @@ img:hover {
 
 .text {
     padding-bottom: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    position: fixed;
+    
+
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
+
+
+.banner {
+    background-color: rgb(143, 110, 32);
+}
+
+.box {
+    display: flexbox;
+    margin-right: 25%;
+    margin-left: 25%;
+    color: rgb(143, 110, 32);
+    flex-direction: row;
+}
+
+.DOTW {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.right {
+    text-align: right;
 }
